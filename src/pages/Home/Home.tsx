@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { Products } from 'components';
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <><Products /></>
   )
 }
