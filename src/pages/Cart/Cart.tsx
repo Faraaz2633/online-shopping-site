@@ -13,6 +13,7 @@ export const Cart = () => {
   }, [cart])
 
   const increaseCart = (id: number) => {
+    
     setCart((prev: CartType[]) => {
       const newCart = prev.map((cartItem: CartType) => {
         if (cartItem.id === id) {
